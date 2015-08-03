@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Nashville Software School</title>
+  </head>
+  <body>
+
+    <!-- Whole page container div -->
+    <div class="container">
+
+        <!-- Header Navigation Bar -->
+        <header>
+          <nav>
+            <ul class="nav nav-pills">
+              <li role="presentation" class="active"><a href="#">View Music</a></li>
+              <li role="presentation"><a href="#">Add Music</a></li>
+              <li role="presentation"><a href="#">Fight Me</a></li>
+            </ul>
+          </nav>
+        </header>
+
+      <!-- Left Conrol Area -->
+      <div class="controls">
+        <form action="#" method="POST">
+
+          <label>Song Length:</label>
+          <br>
+          <input class="fullwide" type="range" name="songlength" min="0.0" max="10.0" step="0.1" value="5.0">
+          <br>
+
+          <label>Artist:</label>
+          <br>
+          <select class="fullwide" name="artist">
+            <option value="tool">Tool</option>
+            <option value="aesoprock">Aesop Rock</option>
+            <option value="blank">The Blanks</option>
+            <option value="robotscience">Robot Science</option>
+            <option value="colugo">The Mountain Goats</option>
+          </select>
+          <br>
+
+          <label>Album:</label>
+          <br>
+          <select class="fullwide" name="album">
+            <optgroup label="Tool">
+              <option value="lateralus">Lateralus</option>
+              <option value="opiate">Opiate</option>
+              <option value="aenima">Aenima</option>
+              <option value="tenDays">10,000 Days</option>
+            </optgroup>
+            <optgroup label="Aesop Rock">
+              <option value="nsp">None Shall Pass</option>
+              <option value="daylight">Daylight</option>
+              <option value="catfood">Cat Food</option>
+            </optgroup>
+            <optgroup label="Pulp">
+              <option value="ywdtio">This is Hardcore</option>
+            </optgroup>
+            <optgroup label="The Blanks">
+              <option value="ride">Riding the Wave</option>
+              <option value="takeonme">Take on Me</option>
+              <option value="heyya">Hey ya!</option>
+            </optgroup>
+            <optgroup label="The Mountain Goats">
+              <option value="hyf">Steel Smoked Fish</option>
+              <option value="mfp">Tallahassee</option>
+              <option value="dp">The Sunset Tree</option>
+            </optgroup>
+          </select>
+          <br>
+
+          <label>Genre:</label>
+          <br>
+          <ul>
+            <li>
+              <input type="checkbox" name="rock" value="rock">Rock</li>
+            <li>
+              <input type="checkbox" name="pop" value="pop">Pop</li>
+            <li>
+              <input type="checkbox" name="blues" value="blues">Blues</li>
+          </ul>
+          <ul>
+            <li>
+              <input type="checkbox" name="classical" value="classical">Classical</li>
+            <li>
+              <input type="checkbox" name="jazz" value="jazz">Jazz</li>
+            <li>
+              <input type="checkbox" name="hiphop" value="hiphop">Hip hop</li>
+          </ul>
+          <div class="filter">
+            <input type="submit" value="Filter">
+          </div>
+        </form>
+      </div>
+
+      <!-- Right Content Area -->
+      <div class="content">
+        <div id="content">
+<!-- Example song section formating from original layout  
+        <section>
+          <h1>Big Long Now</h1>
+          <ul>
+            <li>Nirvana</li>
+            <li><span></span></li>
+            <li>Incesticide</li>
+            <li><span></span></li>
+            <li>Rock</li>
+          </ul>
+        </section> -->
+          </div>
+          <div class="embed-responsive embed-responsive-4by3">
+            <P> Feautured song is Big Blue Dress by Cranius!
+<iframe width="420" height="315"
+src="http://www.youtube.com/embed/2z29Rk8814w?autoplay=1">
+</iframe>
+</div>
+        <button id="more">More ></button>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script data-main="javascripts/main" src="bower_components/requirejs/require.js"></script>
+
+   <script type="text/javascript" src="javascripts/main.js"></script>
+  </body>
+</html>
