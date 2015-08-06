@@ -1,0 +1,255 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'coffee-script',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.9.1
+3 info using node@v0.12.3
+4 verbose install initial load of /vagrant/music-history-5/package.json
+5 warn package.json modules@0.1.0 No description
+6 warn package.json modules@0.1.0 No repository field.
+7 warn package.json modules@0.1.0 No README data
+8 verbose installManyTop reading scoped package data from /vagrant/music-history-5/node_modules/grunt/package.json
+9 verbose installManyTop reading scoped package data from /vagrant/music-history-5/node_modules/grunt-contrib-jshint/package.json
+10 verbose installManyTop reading scoped package data from /vagrant/music-history-5/node_modules/grunt-contrib-nodeunit/package.json
+11 verbose installManyTop reading scoped package data from /vagrant/music-history-5/node_modules/grunt-contrib-sass/package.json
+12 verbose installManyTop reading scoped package data from /vagrant/music-history-5/node_modules/grunt-contrib-uglify/package.json
+13 verbose installManyTop reading scoped package data from /vagrant/music-history-5/node_modules/grunt-contrib-watch/package.json
+14 verbose installManyTop reading scoped package data from /vagrant/music-history-5/node_modules/matchdep/package.json
+15 verbose readDependencies loading dependencies from /vagrant/music-history-5/package.json
+16 silly cache add args [ 'coffee-script', null ]
+17 verbose cache add spec coffee-script
+18 silly cache add parsed spec { raw: 'coffee-script',
+18 silly cache add   scope: null,
+18 silly cache add   name: 'coffee-script',
+18 silly cache add   rawSpec: '',
+18 silly cache add   spec: '*',
+18 silly cache add   type: 'range' }
+19 silly addNamed coffee-script@*
+20 verbose addNamed "*" is a valid semver range for coffee-script
+21 silly addNameRange { name: 'coffee-script', range: '*', hasData: false }
+22 silly mapToRegistry name coffee-script
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry http://registry.npmjs.org/
+25 silly mapToRegistry uri http://registry.npmjs.org/coffee-script
+26 verbose addNameRange registry:http://registry.npmjs.org/coffee-script not in flight; fetching
+27 verbose request uri http://registry.npmjs.org/coffee-script
+28 verbose request no auth needed
+29 info attempt registry request try #1 at 08:46:59
+30 verbose request id 3461f58505c2c669
+31 verbose etag "369LNMHM1JM21Q2OHJ5KRRZXD"
+32 http request GET http://registry.npmjs.org/coffee-script
+33 http 304 http://registry.npmjs.org/coffee-script
+34 silly get cb [ 304,
+34 silly get   { date: 'Tue, 04 Aug 2015 13:46:58 GMT',
+34 silly get     via: '1.1 varnish',
+34 silly get     'cache-control': 'max-age=60',
+34 silly get     etag: '"369LNMHM1JM21Q2OHJ5KRRZXD"',
+34 silly get     age: '23',
+34 silly get     connection: 'keep-alive',
+34 silly get     'x-served-by': 'cache-jfk1027-JFK',
+34 silly get     'x-cache': 'HIT',
+34 silly get     'x-cache-hits': '2',
+34 silly get     'x-timer': 'S1438696018.883705,VS0,VE0',
+34 silly get     vary: 'Accept' } ]
+35 verbose etag http://registry.npmjs.org/coffee-script from cache
+36 verbose get saving coffee-script to /home/vagrant/.npm/registry.npmjs.org/coffee-script/.cache.json
+37 silly addNameRange number 2 { name: 'coffee-script', range: '*', hasData: true }
+38 silly addNameRange versions [ 'coffee-script',
+38 silly addNameRange   [ '0.7.0',
+38 silly addNameRange     '0.7.1',
+38 silly addNameRange     '0.7.2',
+38 silly addNameRange     '0.9.0',
+38 silly addNameRange     '0.9.1',
+38 silly addNameRange     '0.9.2',
+38 silly addNameRange     '0.9.3',
+38 silly addNameRange     '0.9.4',
+38 silly addNameRange     '0.9.5',
+38 silly addNameRange     '0.9.6',
+38 silly addNameRange     '1.0.0',
+38 silly addNameRange     '1.0.1',
+38 silly addNameRange     '1.1.0',
+38 silly addNameRange     '1.1.1',
+38 silly addNameRange     '1.1.2',
+38 silly addNameRange     '1.1.3',
+38 silly addNameRange     '1.2.0',
+38 silly addNameRange     '1.3.0',
+38 silly addNameRange     '1.3.1',
+38 silly addNameRange     '1.3.2',
+38 silly addNameRange     '1.3.3',
+38 silly addNameRange     '1.4.0',
+38 silly addNameRange     '1.5.0',
+38 silly addNameRange     '1.6.0',
+38 silly addNameRange     '1.6.1',
+38 silly addNameRange     '1.6.2',
+38 silly addNameRange     '1.6.3',
+38 silly addNameRange     '1.7.0',
+38 silly addNameRange     '1.7.1',
+38 silly addNameRange     '1.8.0',
+38 silly addNameRange     '1.9.0',
+38 silly addNameRange     '1.9.1',
+38 silly addNameRange     '1.9.2',
+38 silly addNameRange     '1.9.3' ] ]
+39 silly addNamed coffee-script@1.9.3
+40 verbose addNamed "1.9.3" is a plain semver version for coffee-script
+41 silly cache afterAdd coffee-script@1.9.3
+42 verbose afterAdd /home/vagrant/.npm/coffee-script/1.9.3/package/package.json not in flight; writing
+43 verbose afterAdd /home/vagrant/.npm/coffee-script/1.9.3/package/package.json written
+44 silly install resolved [ { name: 'coffee-script',
+44 silly install resolved     description: 'Unfancy JavaScript',
+44 silly install resolved     keywords: [ 'javascript', 'language', 'coffeescript', 'compiler' ],
+44 silly install resolved     author: { name: 'Jeremy Ashkenas' },
+44 silly install resolved     version: '1.9.3',
+44 silly install resolved     license: 'MIT',
+44 silly install resolved     engines: { node: '>=0.8.0' },
+44 silly install resolved     directories: { lib: './lib/coffee-script' },
+44 silly install resolved     main: './lib/coffee-script/coffee-script',
+44 silly install resolved     bin: { coffee: './bin/coffee', cake: './bin/cake' },
+44 silly install resolved     preferGlobal: true,
+44 silly install resolved     scripts:
+44 silly install resolved      { test: 'node ./bin/cake test',
+44 silly install resolved        'test-harmony': 'node --harmony ./bin/cake test' },
+44 silly install resolved     homepage: 'http://coffeescript.org',
+44 silly install resolved     bugs: { url: 'https://github.com/jashkenas/coffeescript/issues' },
+44 silly install resolved     repository:
+44 silly install resolved      { type: 'git',
+44 silly install resolved        url: 'git://github.com/jashkenas/coffeescript.git' },
+44 silly install resolved     devDependencies:
+44 silly install resolved      { 'uglify-js': '~2.2',
+44 silly install resolved        jison: '>=0.2.0',
+44 silly install resolved        'highlight.js': '~8.0.0',
+44 silly install resolved        underscore: '~1.5.2',
+44 silly install resolved        docco: '~0.7.0' },
+44 silly install resolved     gitHead: 'c37f284771e10b36239c714dcc40827510a6df5f',
+44 silly install resolved     _id: 'coffee-script@1.9.3',
+44 silly install resolved     _shasum: '596e6e83fcfcb67c5964ab70d444beff0ac04ac7',
+44 silly install resolved     _from: 'coffee-script@*',
+44 silly install resolved     _npmVersion: '1.4.28',
+44 silly install resolved     _npmUser: { name: 'jashkenas', email: 'jashkenas@gmail.com' },
+44 silly install resolved     maintainers: [ [Object], [Object] ],
+44 silly install resolved     dist:
+44 silly install resolved      { shasum: '596e6e83fcfcb67c5964ab70d444beff0ac04ac7',
+44 silly install resolved        tarball: 'http://registry.npmjs.org/coffee-script/-/coffee-script-1.9.3.tgz' },
+44 silly install resolved     _resolved: 'http://registry.npmjs.org/coffee-script/-/coffee-script-1.9.3.tgz',
+44 silly install resolved     readme: 'ERROR: No README data found!' } ]
+45 info install coffee-script@1.9.3 into /vagrant/music-history-5
+46 info installOne coffee-script@1.9.3
+47 verbose installOne of coffee-script to /vagrant/music-history-5 not in flight; installing
+48 verbose lock using /home/vagrant/.npm/_locks/coffee-script-ef30ceb22f30564a.lock for /vagrant/music-history-5/node_modules/coffee-script
+49 silly install write writing coffee-script 1.9.3 to /vagrant/music-history-5/node_modules/coffee-script
+50 verbose unbuild node_modules/coffee-script
+51 silly gentlyRm /vagrant/music-history-5/node_modules/coffee-script is being purged from base /vagrant/music-history-5
+52 verbose gentlyRm don't care about contents; nuking /vagrant/music-history-5/node_modules/coffee-script
+53 verbose tar unpack /home/vagrant/.npm/coffee-script/1.9.3/package.tgz
+54 verbose tar unpacking to /vagrant/music-history-5/node_modules/coffee-script
+55 silly gentlyRm /vagrant/music-history-5/node_modules/coffee-script is being purged
+56 verbose gentlyRm don't care about contents; nuking /vagrant/music-history-5/node_modules/coffee-script
+57 silly gunzTarPerm modes [ '775', '664' ]
+58 silly gunzTarPerm extractEntry package.json
+59 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+60 silly gunzTarPerm extractEntry .npmignore
+61 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+62 silly gunzTarPerm extractEntry README.md
+63 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+64 silly gunzTarPerm extractEntry LICENSE
+65 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+66 silly gunzTarPerm extractEntry register.js
+67 silly gunzTarPerm modified mode [ 'register.js', 420, 436 ]
+68 silly gunzTarPerm extractEntry repl.js
+69 silly gunzTarPerm modified mode [ 'repl.js', 420, 436 ]
+70 silly gunzTarPerm extractEntry bin/cake
+71 silly gunzTarPerm modified mode [ 'bin/cake', 493, 509 ]
+72 silly gunzTarPerm extractEntry bin/coffee
+73 silly gunzTarPerm modified mode [ 'bin/coffee', 493, 509 ]
+74 silly gunzTarPerm extractEntry bower.json
+75 silly gunzTarPerm modified mode [ 'bower.json', 420, 436 ]
+76 silly gunzTarPerm extractEntry CONTRIBUTING.md
+77 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 420, 436 ]
+78 silly gunzTarPerm extractEntry lib/coffee-script/browser.js
+79 silly gunzTarPerm modified mode [ 'lib/coffee-script/browser.js', 420, 436 ]
+80 silly gunzTarPerm extractEntry lib/coffee-script/grammar.js
+81 silly gunzTarPerm modified mode [ 'lib/coffee-script/grammar.js', 420, 436 ]
+82 silly gunzTarPerm extractEntry lib/coffee-script/helpers.js
+83 silly gunzTarPerm modified mode [ 'lib/coffee-script/helpers.js', 420, 436 ]
+84 silly gunzTarPerm extractEntry lib/coffee-script/index.js
+85 silly gunzTarPerm modified mode [ 'lib/coffee-script/index.js', 420, 436 ]
+86 silly gunzTarPerm extractEntry lib/coffee-script/lexer.js
+87 silly gunzTarPerm modified mode [ 'lib/coffee-script/lexer.js', 420, 436 ]
+88 silly gunzTarPerm extractEntry lib/coffee-script/command.js
+89 silly gunzTarPerm modified mode [ 'lib/coffee-script/command.js', 420, 436 ]
+90 silly gunzTarPerm extractEntry lib/coffee-script/optparse.js
+91 silly gunzTarPerm modified mode [ 'lib/coffee-script/optparse.js', 420, 436 ]
+92 silly gunzTarPerm extractEntry lib/coffee-script/parser.js
+93 silly gunzTarPerm modified mode [ 'lib/coffee-script/parser.js', 493, 509 ]
+94 silly gunzTarPerm extractEntry lib/coffee-script/register.js
+95 silly gunzTarPerm modified mode [ 'lib/coffee-script/register.js', 420, 436 ]
+96 silly gunzTarPerm extractEntry lib/coffee-script/repl.js
+97 silly gunzTarPerm modified mode [ 'lib/coffee-script/repl.js', 420, 436 ]
+98 silly gunzTarPerm extractEntry lib/coffee-script/rewriter.js
+99 silly gunzTarPerm modified mode [ 'lib/coffee-script/rewriter.js', 420, 436 ]
+100 silly gunzTarPerm extractEntry lib/coffee-script/coffee-script.js
+101 silly gunzTarPerm modified mode [ 'lib/coffee-script/coffee-script.js', 420, 436 ]
+102 silly gunzTarPerm extractEntry lib/coffee-script/scope.js
+103 silly gunzTarPerm modified mode [ 'lib/coffee-script/scope.js', 420, 436 ]
+104 silly gunzTarPerm extractEntry lib/coffee-script/cake.js
+105 silly gunzTarPerm modified mode [ 'lib/coffee-script/cake.js', 420, 436 ]
+106 silly gunzTarPerm extractEntry lib/coffee-script/sourcemap.js
+107 silly gunzTarPerm modified mode [ 'lib/coffee-script/sourcemap.js', 420, 436 ]
+108 silly gunzTarPerm extractEntry lib/coffee-script/nodes.js
+109 silly gunzTarPerm modified mode [ 'lib/coffee-script/nodes.js', 420, 436 ]
+110 silly gunzTarPerm extractEntry CNAME
+111 silly gunzTarPerm modified mode [ 'CNAME', 420, 436 ]
+112 verbose write writing to /vagrant/music-history-5/node_modules/coffee-script/package.json
+113 info preinstall coffee-script@1.9.3
+114 verbose readDependencies loading dependencies from /vagrant/music-history-5/node_modules/coffee-script/package.json
+115 verbose readDependencies loading dependencies from /vagrant/music-history-5/node_modules/coffee-script/package.json
+116 silly install resolved []
+117 verbose about to build /vagrant/music-history-5/node_modules/coffee-script
+118 info build /vagrant/music-history-5/node_modules/coffee-script
+119 info linkStuff coffee-script@1.9.3
+120 silly linkStuff coffee-script@1.9.3 has /vagrant/music-history-5/node_modules as its parent node_modules
+121 verbose linkBins coffee-script@1.9.3
+122 verbose link bins [ { coffee: './bin/coffee', cake: './bin/cake' },
+122 verbose link bins   '/vagrant/music-history-5/node_modules/.bin',
+122 verbose link bins   false ]
+123 verbose linkMans coffee-script@1.9.3
+124 verbose rebuildBundles coffee-script@1.9.3
+125 silly gentlyRm /vagrant/music-history-5/node_modules/.bin/coffee is being purged
+126 verbose gentlyRm don't care about contents; nuking /vagrant/music-history-5/node_modules/.bin/coffee
+127 silly gentlyRm /vagrant/music-history-5/node_modules/.bin/cake is being purged
+128 verbose gentlyRm don't care about contents; nuking /vagrant/music-history-5/node_modules/.bin/cake
+129 verbose unlock done using /home/vagrant/.npm/_locks/coffee-script-ef30ceb22f30564a.lock for /vagrant/music-history-5/node_modules/coffee-script
+130 verbose stack Error: EPROTO, symlink '../coffee-script/bin/coffee'
+130 verbose stack     at Error (native)
+131 verbose cwd /vagrant/music-history-5
+132 error Linux 3.16.0-30-generic
+133 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "coffee-script" "--save-dev"
+134 error node v0.12.3
+135 error npm  v2.9.1
+136 error path ../coffee-script/bin/coffee
+137 error code EPROTO
+138 error errno -71
+139 error EPROTO, symlink '../coffee-script/bin/coffee'
+140 error If you need help, you may report this error at:
+140 error     <https://github.com/npm/npm/issues>
+141 verbose exit [ -71, true ]
+142 verbose unbuild node_modules/coffee-script
+143 info preuninstall coffee-script@1.9.3
+144 info uninstall coffee-script@1.9.3
+145 verbose unbuild rmStuff coffee-script@1.9.3 from /vagrant/music-history-5/node_modules
+146 silly gentlyRm /vagrant/music-history-5/node_modules/.bin/coffee is being gently removed
+147 silly gentlyRm verifying /vagrant/music-history-5 is an npm working directory
+148 silly gentlyRm /vagrant/music-history-5/node_modules/.bin/cake is being gently removed
+149 silly gentlyRm verifying /vagrant/music-history-5 is an npm working directory
+150 silly gentlyRm containing path /vagrant/music-history-5 is under npm's control, in /vagrant/music-history-5
+151 silly gentlyRm deletion target /vagrant/music-history-5/node_modules/.bin/coffee is under /vagrant/music-history-5
+152 verbose gentlyRm vacuuming from /vagrant/music-history-5/node_modules/.bin/coffee up to /vagrant/music-history-5
+153 silly gentlyRm containing path /vagrant/music-history-5 is under npm's control, in /vagrant/music-history-5
+154 silly gentlyRm deletion target /vagrant/music-history-5/node_modules/.bin/cake is under /vagrant/music-history-5
+155 verbose gentlyRm vacuuming from /vagrant/music-history-5/node_modules/.bin/cake up to /vagrant/music-history-5
+156 info postuninstall coffee-script@1.9.3
+157 silly gentlyRm /vagrant/music-history-5/node_modules/coffee-script is being purged from base /vagrant/music-history-5
+158 verbose gentlyRm don't care about contents; nuking /vagrant/music-history-5/node_modules/coffee-script
+159 silly vacuum-fs purging /vagrant/music-history-5/node_modules/coffee-script
+160 silly vacuum-fs quitting because other entries in /vagrant/music-history-5/node_modules

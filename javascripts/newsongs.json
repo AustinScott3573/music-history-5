@@ -1,0 +1,28 @@
+{
+  "songs": [
+    {
+      "title": "Headspace",
+      "artist": "Velvet Revolver",
+      "album": "Contraband",
+      "genre": "Rock"
+    },
+    {
+      "title": "Hesher",
+      "artist": "Wallpaper",
+      "album": "Ricky Reed is Real",
+      "genre": "Rap"
+    },
+    {
+      "title": "Roundabout",
+      "artist": "Yes",
+      "album": "Fragile",
+      "genre": "Rock"
+    },
+    {
+      "title": "Like a Friend",
+      "artist": "Pulp",
+      "album": "This Is Hardcore",
+      "genre": "Rock"
+    }
+  ]
+}

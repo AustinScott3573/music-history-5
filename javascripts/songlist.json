@@ -1,0 +1,28 @@
+{
+  "songs": [
+    {
+      "title": "Parabola",
+      "artist": "Tool",
+      "album": "Lateralus",
+      "genre": "Rock"
+    },
+    {
+      "title": "Nuclear",
+      "artist": "Mike Oldfield",
+      "album": "Man On the Rocks",
+      "genre": "Rock"
+    },
+    {
+      "title": "Wandering Star",
+      "artist": "Portishead",
+      "album": "Dummy",
+      "genre": "Electronic"
+    },
+    {
+      "title": "Punkrocker",
+      "artist": "Teddybears",
+      "album": "Soft Machine",
+      "genre": "Rock"
+    }
+  ]
+}
