@@ -42,4 +42,17 @@ nav {
 label {
   display: block; }
 
+  td {
+    color: white;
+    font-size: 125%;
+  }
+
+  div {
+    color: white;
+    font-size: 105%;
+  }
+
+#filter {
+  color: black;
+}
 /*# sourceMappingURL=main.css.map */
