@@ -1,9 +1,9 @@
 body {
   font: 100% Helvetica, sans-serif;
-    background: url("images/background.jpg");
-    background-blend-mode: overlay; 
-    background-size: cover;
-     }
+  background: url("images/background4.jpg");
+  background-blend-mode: overlay;
+  background-size: cover;
+   }
 
 table {
   font: 100% Helvetica, sans-serif; }
@@ -42,17 +42,17 @@ nav {
 label {
   display: block; }
 
-  td {
-    color: white;
-    font-size: 125%;
-  }
+td {
+  color: white;
+  font-size: 125%; }
 
-  div {
-    color: white;
-    font-size: 105%;
-  }
+div {
+  color: white;
+  font-size: 105%; }
 
 #filter {
-  color: black;
-}
+  color: black; }
+
+/*# sourceMappingURL=main.css.map */
+
 /*# sourceMappingURL=main.css.map */
