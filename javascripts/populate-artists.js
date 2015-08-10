@@ -1,8 +1,8 @@
 define(["jquery"],function($) {
   return {
-    popSongs: function(callback) {
+    popArtists: function(callback) {
       $.ajax({
-        url: "https://blazing-heat-5390.firebaseio.com/songs.json"
+        url: "https://blazing-heat-5390.firebaseio.com/.json"
       }).done(function(data) {
         callback.call(this, data);
       });
